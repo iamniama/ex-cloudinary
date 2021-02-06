@@ -1,0 +1,10 @@
+<ul class="list-group" style="margin-left: 25px;">
+    <%data.data.forEach(function(img, index){ %>
+     
+            <li class="list-group-item" style="align-content: center;background-color: lightcyan">
+                <img src="<%=img.url %>" class="img-thumbnail" />                
+                <p class="card-text"><%=img.secure_url%></p>
+            </li>
+    
+    <% }) %>
+    </ul>
